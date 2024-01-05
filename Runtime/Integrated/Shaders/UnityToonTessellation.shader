@@ -1116,7 +1116,7 @@ Shader "Toon(Tessellation)" {
         Pass{
             Name "Outline"
             Tags {
-                "LightMode" = "SRPDefaultUnlit"
+                "LightMode" = "Outline"
             }
             Cull[_SRPDefaultUnlitColMode]
             ColorMask[_SPRDefaultUnlitColorMask]
@@ -1196,7 +1196,7 @@ Shader "Toon(Tessellation)" {
         Pass {
             Name "Outline"
             Tags {
-                "LightMode" = "SRPDefaultUnlit"
+                "LightMode" = "Outline"
             }
             Cull [_SRPDefaultUnlitColMode]
             ColorMask [_SPRDefaultUnlitColorMask]
@@ -1421,7 +1421,7 @@ Shader "Toon(Tessellation)" {
         Pass {
             Name "Outline"
             Tags {
-                "LightMode"="ForwardBase"
+                "LightMode"="Outline"
             }
             Cull[_SRPDefaultUnlitColMode]
             ColorMask[_SPRDefaultUnlitColorMask]
