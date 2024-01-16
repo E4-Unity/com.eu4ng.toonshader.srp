@@ -8,7 +8,7 @@
     "com.unity.test-framework": "1.1.33",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.7.6",
-    "com.unity.toonshader": "file:../../package",
+    "com.eu4ng.toonshader.srp": "file:../../package",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.9.1",
     "com.unity.modules.ai": "1.0.0",

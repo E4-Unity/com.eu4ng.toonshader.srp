@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.eu4ng.toonshader.srp": {
+      "version": "file:../../package",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.film-internal-utilities": "0.18.4-preview",
+        "com.unity.render-pipelines.core": "10.0.0"
+      }
+    },
     "com.unity.burst": {
       "version": "1.8.9",
       "depth": 1,
@@ -134,15 +143,6 @@
         "com.unity.modules.particlesystem": "1.0.0"
       },
       "url": "https://packages.unity.com"
-    },
-    "com.unity.toonshader": {
-      "version": "file:../../package",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.unity.film-internal-utilities": "0.18.4-preview",
-        "com.unity.render-pipelines.core": "10.0.0"
-      }
     },
     "com.unity.ugui": {
       "version": "1.0.0",
